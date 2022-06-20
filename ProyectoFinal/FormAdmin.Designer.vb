@@ -134,6 +134,7 @@ Partial Class FormAdmin
         Me.BMostrarTodoSolicitud = New System.Windows.Forms.Button()
         Me.Label27 = New System.Windows.Forms.Label()
         Me.DGVClienteSolicitud = New System.Windows.Forms.DataGridView()
+        Me.Bprueba = New System.Windows.Forms.Button()
         Me.GBEmpleados.SuspendLayout()
         CType(Me.PBFotoEmpleado, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DGVEmpleados, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -1064,6 +1065,7 @@ Partial Class FormAdmin
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(52, Byte), Integer), CType(CType(67, Byte), Integer), CType(CType(90, Byte), Integer))
+        Me.Panel1.Controls.Add(Me.Bprueba)
         Me.Panel1.Controls.Add(Me.BTGestionSolicitudes)
         Me.Panel1.Controls.Add(Me.BCerrarSesion)
         Me.Panel1.Controls.Add(Me.BTGestionVehiculos)
@@ -1352,6 +1354,15 @@ Partial Class FormAdmin
         Me.DGVClienteSolicitud.Size = New System.Drawing.Size(436, 183)
         Me.DGVClienteSolicitud.TabIndex = 0
         '
+        'Bprueba
+        '
+        Me.Bprueba.Location = New System.Drawing.Point(91, 371)
+        Me.Bprueba.Name = "Bprueba"
+        Me.Bprueba.Size = New System.Drawing.Size(75, 23)
+        Me.Bprueba.TabIndex = 7
+        Me.Bprueba.Text = "Button2"
+        Me.Bprueba.UseVisualStyleBackColor = True
+        '
         'FormAdmin
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1476,4 +1487,5 @@ Partial Class FormAdmin
     Friend WithEvents Label24 As Label
     Friend WithEvents Label26 As Label
     Friend WithEvents DGVSolicitudes As DataGridView
+    Friend WithEvents Bprueba As Button
 End Class
