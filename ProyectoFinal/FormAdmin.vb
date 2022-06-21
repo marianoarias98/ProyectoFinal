@@ -196,5 +196,7 @@ Public Class FormAdmin
         DGVVehiculoSolicitud.DataSource = persona.SeleccionarVehiculoSolicitud
     End Sub
 
-
+    Private Sub Bprueba_Click(sender As Object, e As EventArgs) Handles Bprueba.Click
+        'boton agregado
+    End Sub
 End Class
